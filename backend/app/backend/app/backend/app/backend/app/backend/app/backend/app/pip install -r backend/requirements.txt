@@ -1,0 +1,23 @@
+# Web framework
+fastapi==0.111.1
+uvicorn[standard]==0.23.2
+
+# Database ORM and async support
+sqlalchemy==2.0.22
+databases[postgresql]==0.7.4  # Agar PostgreSQL use kar rahe ho
+psycopg2-binary==2.9.7       # PostgreSQL driver
+
+# Data validation
+pydantic==2.5.2
+
+# Password hashing
+passlib[bcrypt]==1.7.5
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Database migrations
+alembic==1.11.2
+
+# Optional: async utilities
+httpx==0.26.0   # Async HTTP requests, agar orchestrator me parallel tools call kar rahe ho
